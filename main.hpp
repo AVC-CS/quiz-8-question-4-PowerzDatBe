@@ -13,6 +13,7 @@ int splitline(string x, char y, char split[][MAXLEN]) {
     int cnt = 0;
 
     i = 0;
+    j = 0;
     while(i < x.length()) {
         if((x.at(i) != y) && (x.at(i) != '\0'))
             split[j][k++] = x.at(i);
