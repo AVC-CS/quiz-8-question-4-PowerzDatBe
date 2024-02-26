@@ -26,5 +26,5 @@ int splitline(string x, char y, char split[][MAXLEN]) {
         i++;
     }
     
-    return cnt;
+    return cnt + 1;
 }
